@@ -1,0 +1,33 @@
+<template>
+  <div class="column is-4-desktop is-6-tablet">
+    <div class="box">
+
+      <label>
+        Message
+        <input class="input" data-input="message" />
+      </label><br />
+
+      <label>
+        Activated when player dies between
+        <input class="input" data-input="min" type="number" />
+      </label><br />
+
+      <label>
+        and
+        <input class="input" data-input="max" type="number" />
+      </label><br />
+      <details>
+        <summary>More options</summary>
+        <label>Victim is
+          <select data-input="victim">
+            <option value="anyone">anyone</option>
+            <option value="mod">a moderator</option>
+            <option value="admin">a administrator</option>
+            <option value="owner">the owner</option>
+          </select>
+        </label>
+      </details>
+      <a>Delete</a>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,15 @@
+{
+  "name": "bhmb-pvpmessages",
+  "version": "1.0.0",
+  "description": "PVP Messages/Death Messages for the Blockheads MessageBot.",
+  "main": "./build/bundle.js",
+  "repository": "https://github.com/dapersonmgn/BHMB-groupManagement",
+  "author": "DaPersonMGN",
+  "license": "MIT",
+  "devDependencies": {
+    "raw-loader": "^0.5.1",
+    "webpack": "^4.2.0",
+    "@bhmb/bot": "^7.0.0-a8",
+    "@bhmb/ui": "^1.0.0-a5"
+  }
+}
