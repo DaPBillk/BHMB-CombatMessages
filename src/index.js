@@ -6,7 +6,7 @@ const ui = require("./ui.js");
 }(this, (function (bot) { 'use strict';
     const MessageBot = bot.MessageBot;
 
-    MessageBot.registerExtension("DaPersonMGN/PVPMessages", function(ex, world) {
+    MessageBot.registerExtension("DaPersonMGN/CombatMessages", function(ex, world) {
       //Debugging purposes.
       //window.ex2 = ex;
       ex.messages = { pvp: [], death: []};
